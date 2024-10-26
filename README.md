@@ -6,18 +6,29 @@ The **Salary Survey Analysis Project** aims to analyze global salary survey data
 
 ## Dataset Description
 
-This project uses a dataset containing self-reported salary information from professionals worldwide. The survey captures data across various fields and includes the following details:
+This project uses a dataset containing self-reported salary information from professionals worldwide. Below is a description of each column in the dataset:
 
-- **Demographics**: Age, country, state (if U.S.), and city, providing information on the respondent’s location and age group.
-- **Job Information**: Job title, industry, and years of experience, allowing for insights into salary variations by industry and experience level.
-- **Compensation**:
-  - **Annual Salary**: Respondent’s reported yearly salary, either actual or annualized to a full-time equivalent.
-  - **Additional Compensation**: Monetary bonuses or overtime, not including benefits.
-  - **Currency**: Currency in which the salary is reported.
-- **Education and Background**: Highest level of education and gender, as well as racial or ethnic identity.
-- **Additional Context**: Some respondents provide further details about their job role or income structure.
+- **Timestamp**: Date and time when the survey response was submitted.
+- **Age**: Respondent's age.
+- **Industry**: Industry in which the respondent is currently employed.
+- **JobTitle**: Job title of the respondent.
+- **JobContext**: Additional context or clarification for the job title if provided by the respondent.
+- **AnnualSalary**: Annual salary of the respondent, provided in either actual or annualized form to reflect a full-time equivalent.
+- **AdditionalCompensation**: Any additional monetary compensation (bonuses, overtime, etc.) reported by the respondent, excluding benefits.
+- **Currency**: Currency in which the salary and additional compensation amounts are reported.
+- **OtherCurrency**: If "Other" was selected as the currency, this field specifies the exact currency.
+- **IncomeContext**: Additional context regarding the income, if provided, for clarification purposes.
+- **Country**: Country where the respondent works.
+- **State**: U.S. state where the respondent works, if applicable.
+- **City**: City where the respondent works.
+- **YearsExperience**: Total years of professional work experience of the respondent.
+- **YearsInField**: Total years of professional experience in the respondent's current field.
+- **EducationLevel**: Highest level of education completed by the respondent.
+- **Gender**: Gender identity of the respondent.
+- **Race**: Race or ethnicity of the respondent, with the option to choose multiple categories.
 
 This dataset allows for an in-depth exploration of how salaries vary by industry, country, and demographics. It also provides a basis for building predictive models to estimate salaries based on experience, education, and location.
+
 
 ## Project Goals
 
